@@ -1,0 +1,10 @@
+.container ul{
+    float: left;
+    list-style: none;
+}
+.student a{
+    float: right;
+}
+.list ul li a{
+    margin-top:30px;
+}

@@ -1,0 +1,22 @@
+.container-fulied{
+    background-image:image( "./assets/image2.jpg");
+}
+.login{
+    margin: auto;
+    margin-top:13%;
+    border: 2px solid chartreuse;
+    padding: 70px;
+    
+    background: chartreuse;
+    border-radius: 8px;
+}
+.login .form-control{
+      width: 400px;
+}
+.login button{
+    margin-top:30px; 
+}
+.login .regist {
+    margin-top:100px;
+    margin-right: 20px;
+}

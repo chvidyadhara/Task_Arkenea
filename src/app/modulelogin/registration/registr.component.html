@@ -1,0 +1,16 @@
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="registr">
+           <h3>Sign Up</h3> 
+           <div class="form-group">
+           Username:<input type="text" class="form-control" [(ngModel)]= "model.username" name="username"  placeholder="Username"><br>
+           Password:<input type = "text" class="form-control" [(ngModel)]= "model.password" name= "password" placeholder="Password"><br>
+           EmailId:<input type = "text" class="form-control" [(ngModel)]= "model.emailid" name = "emailid" placeholder="Emailid"><br>
+           Mobileno:<input type = "text" class="form-control" [(ngModel)]= "model.mobileno" name = "mobileno" placeholder="Mobileno"><br>
+           <button class="btn btn-primary" (click)="submitdata()">Submit</button>
+              </div>
+            </div>
+        </div>
+       </div>
+    </div>
